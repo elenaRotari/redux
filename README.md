@@ -1,14 +1,13 @@
-# Initial Template for using React.js/Vite with latest Version React-router-dom
+# Learning Redux
 
 ## Using
 
-    Click "Use this template" => "Create new Repository"
     Run npm i
     Run npm run dev
 
 ## Including
 
-    react router dom v6.14.2
+    react-router-dom v6.14.2
     react-icons
     match-sorter
     sass
