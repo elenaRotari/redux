@@ -13,6 +13,9 @@
     sass
     sort-by
     localforage
+    redux
+    react-redux
+    reduxjs/toolkit
 
 ## Create by
 
