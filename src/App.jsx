@@ -9,7 +9,7 @@ function App() {
   const data = useLoaderData();
 
   return (
-    <div>
+    <div className="App">
       <Profile />
       <Login />
     </div>

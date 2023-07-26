@@ -9,6 +9,11 @@ export const userSlice = createSlice({
     login: (state, action) => {
       state.value = action.payload;
     },
+    logout: (state) => {
+      state.value = { name: "", email: "", age: 0 };
+    },
   },
 });
+
+export const { login, logout } = userSlice.actions;
 export default userSlice.reducer; // export const { login } = userSlice.actions;
